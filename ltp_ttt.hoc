@@ -65,6 +65,7 @@ objectvar rr[60]  //  random stem diameters
 create spins[60]
 for i=0,59 spins[i] {
    rr[i] = new Random()   
+   rr[i].Random123()
    rr[i].normal(0.18,0.0121)
    x=(rr.repick())
    nseg=10
@@ -130,6 +131,7 @@ for i=0,7 {
 objectvar r[60]
 for i=0,59 spins[i] {
    r[i] = new Random()
+   r[i].Random123()
    r[i].uniform(30,40)
     j=int(i/15+0.001)  /* j=0..3, 
 parent branch No for each 15 spines */

@@ -67,6 +67,7 @@ objectvar rr[60]  // random stem diameters
 create spins[48]
 for i=0,47 spins[i] {
  rr[i] = new Random()   
+ rr[i].Random123()
    rr[i].normal(0.18,0.0121)
    x=(rr.repick())
    nseg=10 
@@ -121,6 +122,7 @@ for i=0,23 splns2[i] {
 for i=0,11 splns1[i] {
    j=2*i 
    rr[i+48] = new Random()   
+   rr[i+48].Random123()
    rr[i+48].normal(0.18,0.0121)
    x=(rr.repick())
    nseg=10 
@@ -200,6 +202,7 @@ objectvar r[60]
 for i=0,47 {
    m=int((int((i+0.0001)/5.0)+0.0001)*5.0)
    r[i] = new Random()
+   r[i].Random123()
    r[i].uniform(30.0,40.0)
    j=int((i+0.0001)/12+0.001)  //j=0..3, parent branch No for every 12 spines
    x=(r.repick())/60.
@@ -211,6 +214,7 @@ equal numbers of spines */
 
 for i=0,11 {
    r[i+48] = new Random()
+   r[i+48].Random123()
    r[i+48].uniform(30.0,40.0)
    m=int((int((i+0.0001)/5.0)+0.0001)*5.0)
    j=int((i+0.0001)/3+0.001)  

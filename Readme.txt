@@ -38,3 +38,4 @@ ___________________________________________
 
 20120112 updated to use cnexp in place of euler method in cachan.mod as per
 http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592
+20241125 Updated hoc files to use Random123
