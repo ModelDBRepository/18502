@@ -21,21 +21,20 @@ Please refer to the articles for more information.
 
 ---
 
-Dr. D.A. Rusakov
-Institute of Neurology
-University College London
-Queen Square
+Dr. D.A. Rusakov  
+Institute of Neurology  
+University College London  
+Queen Square  
 London WC1N 3BG, UK
 
-Telephone:  44+ (0)207 837 3611 ext 4336
-Telefax:    44+ (0)207 278 5616
+Telephone:  44+ (0)207 837 3611 ext 4336  
+Telefax:    44+ (0)207 278 5616  
 e-mail:     d.rusakov@ion.ucl.ac.uk
 
 ---
 
+## Changelog
 20120112 updated to use cnexp in place of euler method in cachan.mod as per
 [http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592](http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592)
 
----
-
-2025-05-27 – Standardized to Markdown
+20250527 Standardized to Markdown
